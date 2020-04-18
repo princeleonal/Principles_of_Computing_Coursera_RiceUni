@@ -77,6 +77,31 @@
   
 ----
 # Question 10:
+  Complete the following class definition.
+  
+    class BankAccount:
+    """ Class definition modeling the behavior of a simple bank account """
+
+    def __init__(self, initial_balance):
+        """Creates an account with the given balance."""
+        …
+    def deposit(self, amount):
+        """Deposits the amount into the account."""
+        …
+    def withdraw(self, amount):
+        """
+        Withdraws the amount from the account. Each withdrawal resulting 
+        in a negative balance also deducts a penalty fee of 5 dollars
+        from the balance.
+        """
+        …
+    def get_balance(self):
+        """Returns the current balance in the account."""
+        …
+    def get_fees(self):
+        """Returns the total fees ever deducted from the account."""
+        …
+        
   The deposit and withdraw methods each change the account balance. The withdraw method also deducts a fee of 5 dollars from the balance if the withdrawal (before any fees) results in a negative balance. Since we also have the method get_fees, you will need to have a variable to keep track of the fees paid.Test case should print the values 10 and 5, respectively, since the withdrawal incurs a fee of 5 dollars.
 
     TEST CASE:
@@ -85,6 +110,8 @@
     my_account.deposit(20)
     print my_account.get_balance(), my_account.get_fees()
     
+Answer: -60 75
+
     CODE:
     class BankAccount:
     balance = 0
@@ -158,5 +185,3 @@
     print my_account.get_balance(), my_account.get_fees()
     
     OUTPUT : -60, 75
-    
- Answer: -60 75
