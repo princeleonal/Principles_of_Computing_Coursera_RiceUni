@@ -71,7 +71,7 @@
     appendsums(sum_three)
     print sum_three[10],print sum_three[20]
     
-    Output: 230 101902
+    OUTPUT: 230 101902
     
   Answer: 101902
   
@@ -102,9 +102,8 @@
         """Returns the total fees ever deducted from the account."""
         …
         
-  The deposit and withdraw methods each change the account balance. The withdraw method also deducts a fee of 5 dollars from the balance if the withdrawal (before any fees) results in a negative balance. Since we also have the method get_fees, you will need to have a variable to keep track of the fees paid.Test case should print the values 10 and 5, respectively, since the withdrawal incurs a fee of 5 dollars.
+  The deposit and withdraw methods each change the account balance. The withdraw method also deducts a fee of 5 dollars from the balance if the withdrawal (before any fees) results in a negative balance. Since we also have the method get_fees, you will need to have a variable to keep track of the fees paid.The Test case given below should print the values 10 and 5, respectively, since the withdrawal incurs a fee of 5 dollars.
 
-    TEST CASE:
     my_account = BankAccount(10)
     my_account.withdraw(15)
     my_account.deposit(20)
