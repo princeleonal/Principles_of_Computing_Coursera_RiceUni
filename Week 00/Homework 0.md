@@ -108,8 +108,55 @@
     my_account.withdraw(15)
     my_account.deposit(20)
     print my_account.get_balance(), my_account.get_fees()
-    
-Answer: -60 75
+  
+  Copy-and-paste the following much longer test. What two numbers are printed at the end? Enter the two numbers, separated only by spaces.
+  
+    my_account = BankAccount(10)
+    my_account.withdraw(5)
+    my_account.deposit(10)
+    my_account.withdraw(5)
+    my_account.withdraw(15)
+    my_account.deposit(20)
+    my_account.withdraw(5)
+    my_account.deposit(10)
+    my_account.deposit(20)
+    my_account.withdraw(15)
+    my_account.deposit(30)
+    my_account.withdraw(10)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.withdraw(50)
+    my_account.deposit(30)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.withdraw(5)
+    my_account.deposit(20)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.deposit(30)
+    my_account.withdraw(25)
+    my_account.withdraw(5)
+    my_account.deposit(10)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.withdraw(10)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.deposit(30)
+    my_account.withdraw(25)
+    my_account.withdraw(10)
+    my_account.deposit(20)
+    my_account.deposit(10)
+    my_account.withdraw(5)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.withdraw(5)
+    my_account.withdraw(15)
+    my_account.deposit(10)
+    my_account.withdraw(5)
+    print my_account.get_balance(), my_account.get_fees()
+  
+  Answer: -60 75
 
     CODE:
     class BankAccount:
