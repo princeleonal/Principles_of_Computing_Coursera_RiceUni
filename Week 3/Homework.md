@@ -23,7 +23,8 @@
   Which Python expressions below simulate a single trial corresponding to the roll of a fair six-sided die whose faces are numbered 1 to 6?
   
 ### Answer:
-    random.randrange(1,7), random.randrange(6)+1
+    random.randrange(1,7)
+    random.randrange(6) + 1
 
 ----
 # Question 5
