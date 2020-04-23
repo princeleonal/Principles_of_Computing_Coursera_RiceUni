@@ -9,7 +9,7 @@
   An `if` statement can have at most how many `else` parts?
   
 ### Answer:
-    1
+`1`
 
 ----
 # Question 3
@@ -54,7 +54,7 @@
     val1[2] = 4
     
 ### Answer:
-    3
+`3`
   
 ----
 # Question 8
@@ -68,7 +68,7 @@
   Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list. Your function should loop for 25 times.
 
 ### Answer:
-    101902
+`101902`
   
 ### Code:
     def appendsums(lst):
