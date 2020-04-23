@@ -67,6 +67,9 @@
 # Question 9:
   Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list. Your function should loop for 25 times.
 
+### Answer:
+    101902
+  
 ### Code:
     def appendsums(lst):
     sum = 0
@@ -82,9 +85,6 @@
     
     OUTPUT: 230 101902
     
-### Answer:
-    101902
-  
 ----
 # Question 10:
   Complete the following class definition.
@@ -165,6 +165,9 @@
     my_account.deposit(10)
     my_account.withdraw(5)
     print my_account.get_balance(), my_account.get_fees()
+    
+### Answer:
+    -60 75
   
 ### Code:
     class BankAccount:
@@ -240,5 +243,3 @@
     
     OUTPUT : -60, 75
     
-  ### Answer:
-      -60 75
