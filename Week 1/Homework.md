@@ -1,18 +1,18 @@
-# Question 1: 
+# Question 1
   Enter the type of the Python expression 3.14159.
   
 ### Answer: 
 `Float`
   
 ----
-# Question 2:
+# Question 2
   An `if` statement can have at most how many `else` parts?
   
 ### Answer:
     1
 
 ----
-# Question 3: 
+# Question 3
   Consider the following Python code snippet. Enter the value returned by Python after evaluating the expression `clock_helper(90)`.
        
     def clock_helper(total_seconds):
@@ -25,28 +25,28 @@
 `None`
 
 ----
-# Question 4:
+# Question 4
   In Python, what character always appears at the end of the line before the start of an indented block of code?
   
 ### Answer:
 `:`
     
 ----
-# Question 5:
+# Question 5
   Which of the following expressions returns the last character in the non-empty string my_string?
   
 ### Answer:
 `my_string[-1]`
   
 ----
-# Question 6:
+# Question 6
   What is the primary difference between a list and a tuple?
   
 ### Answer:
     Lists are mutable. Tuples are immutable.
   
 ----
-# Question 7:
+# Question 7
   Consider the following snippet of Python code. What is the value of val2[1] after executing this code?
   
     val1 = [1, 2, 3]
@@ -57,14 +57,14 @@
     3
   
 ----
-# Question 8:
+# Question 8
   Which of the following Python expressions is a valid key in a Python dictionary?
   
 ### Answer:
 `False`,`""`
   
 ----
-# Question 9:
+# Question 9
   Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list. Your function should loop for 25 times.
 
 ### Answer:
@@ -86,7 +86,7 @@
     OUTPUT: 230 101902
     
 ----
-# Question 10:
+# Question 10
   Complete the following class definition.
   
     class BankAccount:
