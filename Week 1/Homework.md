@@ -66,7 +66,8 @@
 ----
 # Question 9:
   Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list. Your function should loop for 25 times.
-  
+
+### Code:
     def appendsums(lst):
     sum = 0
     for i in range(25):
