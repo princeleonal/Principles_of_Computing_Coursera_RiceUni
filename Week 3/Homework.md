@@ -45,7 +45,7 @@
   
 ### Answer:
     The expected value is 0.If i play this game a lot,I expect to break even.
-    (The expected value is zero since the probability of rolling an even sum equals the probability of rolling an odd sum)
+    (The expected value is 0 since the probability of rolling an even sum equals of that of rolling an odd sum)
   
 ----
 # Question 8:
