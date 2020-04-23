@@ -15,11 +15,11 @@
 # Question 3: 
   Consider the following Python code snippet.Enter the value returned by Python after evaluating the expression clock_helper(90).
         
-        def clock_helper(total_seconds):
-          """
-          Helper function for a clock
-          """
-          seconds_in_minute = total_seconds % 60
+    def clock_helper(total_seconds):
+     """
+     Helper function for a clock
+     """
+     seconds_in_minute = total_seconds % 60
         
 ### Answer:
     None
