@@ -2,14 +2,14 @@
   Enter the type of the Python expression 3.14159.
   
 ### Answer: 
-`Float`
+    Float
   
 ----
 # Question 2
   An `if` statement can have at most how many `else` parts?
   
 ### Answer:
-`1`
+    1
 
 ----
 # Question 3
@@ -22,21 +22,21 @@
      seconds_in_minute = total_seconds % 60
         
 ### Answer:
-`None`
+    None
 
 ----
 # Question 4
   In Python, what character always appears at the end of the line before the start of an indented block of code?
   
 ### Answer:
-`:`
+    :
     
 ----
 # Question 5
   Which of the following expressions returns the last character in the non-empty string my_string?
   
 ### Answer:
-`my_string[-1]`
+    my_string[-1]
   
 ----
 # Question 6
@@ -54,7 +54,7 @@
     val1[2] = 4
     
 ### Answer:
-`3`
+    3
   
 ----
 # Question 8
@@ -68,7 +68,7 @@
   Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list. Your function should loop for 25 times.
 
 ### Answer:
-`101902`
+    101902
   
 ### Code:
     def appendsums(lst):
