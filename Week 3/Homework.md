@@ -2,7 +2,7 @@
   Which term refers to the set of possible outcomes associated with a trial?
   
 ### Answer:
-    Sample Space
+`Sample Space`
   
 ----
 # Question 2
