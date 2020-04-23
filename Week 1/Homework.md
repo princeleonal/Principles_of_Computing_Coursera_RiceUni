@@ -1,13 +1,15 @@
 # Question 1: 
   Enter the type of the Python expression 3.14159.
   
-  Answer: Float
+### Answer: 
+    Float
   
 ----
 # Question 2:
   An if statement can have at most how many else parts?
   
-  Answer:1
+### Answer:
+    1
 
 ----
 # Question 3: 
@@ -19,25 +21,29 @@
           """
           seconds_in_minute = total_seconds % 60
         
-  Answer: None
+### Answer:
+    None
 
 ----
 # Question 4:
   In Python, what character always appears at the end of the line before the start of an indented block of code?
   
-  Answer: ":"
+### Answer:
+    ":"
   
 ----
 # Question 5:
   Which of the following expressions returns the last character in the non-empty string my_string?
   
-  Answer: my_string[-1]
+### Answer:
+    my_string[-1]
   
 ----
 # Question 6:
   What is the primary difference between a list and a tuple?
   
-  Answer: Lists are mutable.Tuples are immutable.
+### Answer:
+    Lists are mutable.Tuples are immutable.
   
 ----
 # Question 7:
@@ -47,13 +53,15 @@
     val2 = val1[1:]
     val1[2] = 4
     
-  Answer: 3
+### Answer:
+    3
   
 ----
 # Question 8:
   Which of the following Python expressions is a valid key in a Python dictionary?
   
-  Answer: False,""
+### Answer:
+    False,""
   
 ----
 # Question 9:
@@ -73,7 +81,8 @@
     
     OUTPUT: 230 101902
     
-  Answer: 101902
+### Answer:
+    101902
   
 ----
 # Question 10:
@@ -156,7 +165,8 @@
     my_account.withdraw(5)
     print my_account.get_balance(), my_account.get_fees()
   
-  Answer: -60 75
+### Answer:
+    -60 75
 
     CODE:
     class BankAccount:
