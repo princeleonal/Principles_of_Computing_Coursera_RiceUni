@@ -58,7 +58,7 @@
 # Question 9:
   To complete this problem, visit the link given (OwlTest page) and follow the directions for creating and submitting a list of test cases. Once OwlTest has successfully assessed your test cases, you will see the message TEST CASES successfully assessed.Following this message is a seven-digit number that you should enter in the box below.
 
-## CODE:
+## Code:
     TEST_CASES = [0,11,321,613,5999,5677,1234,4567,4312,4444]
   
 ## Answer:
