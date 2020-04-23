@@ -165,10 +165,7 @@
     my_account.withdraw(5)
     print my_account.get_balance(), my_account.get_fees()
   
-### Answer:
-    -60 75
-
-    CODE:
+### Code:
     class BankAccount:
     balance = 0
     fee = 0
@@ -241,3 +238,6 @@
     print my_account.get_balance(), my_account.get_fees()
     
     OUTPUT : -60, 75
+    
+  ### Answer:
+      -60 75
