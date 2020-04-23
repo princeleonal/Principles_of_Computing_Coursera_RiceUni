@@ -2,19 +2,19 @@
   Enter the type of the Python expression 3.14159.
   
 ### Answer: 
-    Float
+`Float`
   
 ----
 # Question 2:
-  An if statement can have at most how many else parts?
+  An `if` statement can have at most how many `else` parts?
   
 ### Answer:
     1
 
 ----
 # Question 3: 
-  Consider the following Python code snippet.Enter the value returned by Python after evaluating the expression clock_helper(90).
-        
+  Consider the following Python code snippet. Enter the value returned by Python after evaluating the expression `clock_helper(90)`.
+       
     def clock_helper(total_seconds):
      """
      Helper function for a clock
@@ -22,28 +22,28 @@
      seconds_in_minute = total_seconds % 60
         
 ### Answer:
-    None
+`None`
 
 ----
 # Question 4:
   In Python, what character always appears at the end of the line before the start of an indented block of code?
   
 ### Answer:
-    ":"
-  
+`:`
+    
 ----
 # Question 5:
   Which of the following expressions returns the last character in the non-empty string my_string?
   
 ### Answer:
-    my_string[-1]
+`my_string[-1]`
   
 ----
 # Question 6:
   What is the primary difference between a list and a tuple?
   
 ### Answer:
-    Lists are mutable.Tuples are immutable.
+    Lists are mutable. Tuples are immutable.
   
 ----
 # Question 7:
@@ -61,7 +61,7 @@
   Which of the following Python expressions is a valid key in a Python dictionary?
   
 ### Answer:
-    False,""
+`False`,`""`
   
 ----
 # Question 9:
