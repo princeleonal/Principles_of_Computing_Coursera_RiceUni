@@ -102,4 +102,11 @@
     
 ----
 # Question 9
+  Enter a math expression in `m` and `n` using factorial (!) that represents the value of the nth entry of the mth row of Pascal's triangle. (Both the row numbers and entry numbers are indexed starting at zero.)
+
+### Answer:
+    m! / n!(m-n)!
+    
+----
+# Question 10
   
