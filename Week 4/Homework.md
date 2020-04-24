@@ -112,4 +112,16 @@
   To complete this problem, visit the link given (OwlTest page) and follow the directions for creating and submitting a list of test cases. Once OwlTest has successfully assessed your test cases, you will see the message TEST CASES successfully assessed.. Following this message is a seven-digit number that you should enter in the form below.
   
 ### Answer:
+    4404291
     
+### Code:
+    TEST_CASES = [[0,1,2,3,4,5,6,7,8,9],
+              [0,2,4,6,8,10],
+              [0,1,3,5,7,9],
+              [0,10,9,8,7,6,5,4,3,2],
+              [0,1,1,1,1,1,1],
+              [0,5,10,2,4,7,9,3],
+              [0,1,4,7,9,3,5,7],
+              [0,2,3,4,5,3,7,5,4,3],
+              [0,9,10,8,6,5,7,2,3],
+              [0,1,4,6,2,7,3,8,9]]
