@@ -1,14 +1,14 @@
 # Question 1
   Given the set of outcomes corresponding to a coin flip,{Heads,Tails}, how many sequences of outcomes of length five (repetition allowed) are possible?
 
-### Answer
+### Answer:
     32  (2^5 = 32)
     
 ----
 # Question 2
   Consider a sequence of trials in which a fair four-sided die (with faces numbered 1-4) is rolled twice. What is the expected value of the product of the two die rolls? Enter the answer as a floating point number below.
   
-### Answer
+### Answer:
     6.25
     
 ----
@@ -17,7 +17,7 @@
 
   Enter your answer as a floating point number with at least four significant digits of precision.
   
-### Answer
+### Answer:
     0.0001200
     (Each outcome has probability 0.00001. There are six strings with consecutive ascending digits and six string 
      with consecutive descending digits. Therefore, the probability of this event is 0.00012.)
@@ -28,10 +28,78 @@
 
   Enter your answer as a floating point number with at least four significant digits of precision.
 
-### Answer
+### Answer:
     0.0003968
     There are 12 possible permutations out of 10!/5! permutations that are either ascending or descending.
     
 ----
 # Question 5
+  In this week's lectures, we discussed an iterative approach to generating all sequences of outcomes where repeated outcomes were allowed. Implement a function `gen_permutations(outcomes,num_trials)` that takes a list of outcomes and a number of trials and returns a set of all possible permutations of length `num_trials` (encoded as tuples) from the set of `outcomes`.
+  
+### Answer:
+    ('b','e','c','d')
+
+### Code:
+    
+    def gen_permutations(outcomes, length):
+        """
+        Iterative function that generates set of permutations of
+        outcomes of length num_trials
+        No repeated outcomes allowed
+        """
+        answer_set = set([()])
+        for dummy_idx in range(length):
+            temp_set = set()
+            for partial_sequence in answer_set:
+                for item in outcomes:
+                    new_sequence = list(partial_sequence)
+                    new_sequence.append(item)
+                    if dummy_idx == 1 and new_sequence[0] == new_sequence[1]:
+                        continue
+                    elif dummy_idx == 2 and (new_sequence[1] == new_sequence[2] 
+                                             or new_sequence[0] == new_sequence[2]):
+                        continue
+                    elif dummy_idx == 3 and (new_sequence[0] == new_sequence[3] 
+                                             or new_sequence[1] == new_sequence[3]
+                                             or new_sequence[2] == new_sequence[3]):
+                        continue    
+                    temp_set.add(tuple(new_sequence))
+            answer_set = temp_set
+        return answer_set
+
+    outcome = set(["a", "b", "c", "d", "e", "f"])
+
+    permutations = gen_permutations(outcome, 4)
+    permutation_list = list(permutations)
+    permutation_list.sort()
+    print
+    print "Answer is", permutation_list[100]
+
+----
+# Question 6
+  Which of the following sets are subsets of the set {1,2}?
+
+### Answer:
+    {}
+    {1,2}
+    {1}
+    
+----
+# Question 7
+  If the set T has n members, how many distinct sets S are subsets of T?
+  
+### Answer:
+    2^n
+    
+----
+# Question 8
+  Given a standard 52 card deck of playing cards, what is the probability of being dealt a five card hand where all five cards are of the same suit?
+  
+### Answer:
+    0.0019807923
+    There are 13!/5!8! possible hands with 5 cards in a single suit. Multiply this value by the number of suits (4)
+    and divide by the 52!/5!47! possible hands.
+    
+----
+# Question 9
   
