@@ -73,4 +73,5 @@ Compare the growth rates of the expressions below to the growth rate of total sa
   For the case when`bribe_cost_increment` = 1000, the cost of the nnth bribe was exactly 1000n. Which expression in nn grows faster 1000n or your answer to question 9?
   
 ### Answer:
-    The cost of upgrades grows faster than in the greedy boss scenario. Therefore, the total cookies generated in this version grows at rate that is bounded by a quadratic function.
+    The cost of upgrades grows faster than in the greedy boss scenario. Therefore, the total cookies generated in this
+    version grows at rate that is bounded by a quadratic function.
