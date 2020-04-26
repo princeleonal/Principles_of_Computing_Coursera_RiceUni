@@ -78,7 +78,7 @@ Compare the growth rates of the expressions below to the growth rate of total sa
 
 ----
 # Question 11
-  To complete this problem, visit the link given (OwlTest page) and follow the directions for creating and submitting a list of test cases. Once OwlTest has successfully assessed your test case, you will see the message `TEST CASES successfully assessed`.Following this message is a seven-digit number that you should enter in the form below.
+  To complete this problem, visit the link given (OwlTest page) and follow the directions for creating and submitting a list of test cases. Once OwlTest has successfully assessed your test caseS, you will see the message `TEST CASES successfully assessed`. Following this message is a seven-digit number that you should enter in the form below.
   
 ### Answer:
     3036296
