@@ -75,3 +75,16 @@ Compare the growth rates of the expressions below to the growth rate of total sa
 ### Answer:
     The cost of upgrades grows faster than in the greedy boss scenario. Therefore, the total cookies generated in this
     version grows at rate that is bounded by a quadratic function.
+
+----
+# Question 11
+  To complete this problem, visit the link given (OwlTest page) and follow the directions for creating and submitting a list of test cases. Once OwlTest has successfully assessed your test case, you will see the message `TEST CASES successfully assessed`.Following this message is a seven-digit number that you should enter in the form below.
+  
+### Answer
+    3036296
+    
+### Code
+    TEST_CASES = [[2], [2, 0],
+                  [2,2,2,2],[4,4,4,4],[2,4,8,8],
+                  [2,16,16,16],[1024,1024,1024,1024],
+                  [2,2,4,8],[8,4,2,4],[4,8,32,16]]
