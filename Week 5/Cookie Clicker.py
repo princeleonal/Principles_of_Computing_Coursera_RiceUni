@@ -215,22 +215,24 @@ def run_strategy(strategy_name, time, strategy):
     Run a simulation for the given time with one strategy.
     """
     state = simulate_clicker(provided.BuildInfo(), time, strategy)
-    print strategy_name, ":", state
+    print strategy_name+":"
+    print state
+    print 
 
     # Plot total cookies over time
-
     # Uncomment out the lines below to see a plot of total cookies vs. time
     # Be sure to allow popups, if you do want to see it
+    # Also comment out "None" strategy in run function for the program to work correctly.
 
-#    history = state.get_history()
-#    history = [(item[0], item[3]) for item in history]
-#    simpleplot.plot_lines(strategy_name, 1000, 400, 'Time', 'Total Cookies', [history], True)
+     history = state.get_history()
+     history = [(item[0], item[3]) for item in history]
+     simpleplot.plot_lines(strategy_name, 1000, 400, 'Time', 'Total Cookies', [history], True)
 
 def run():
     """
     Run the simulator.
     """
-    run_strategy("None", SIM_TIME, strategy_none)
+    #run_strategy("None", SIM_TIME, strategy_none)
     run_strategy("Cursor", SIM_TIME, strategy_cursor_broken)
 
     # Add calls to run_strategy to run additional strategies
