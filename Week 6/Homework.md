@@ -18,7 +18,7 @@
   Given a list of n three-letter words, which expression grows as the same rate as the number of statements executed during this sort? (Review practice activity on sorting strings)
   
 ### Answer:
-    n.
+    n
 
 ----
 # Question 4
@@ -66,6 +66,5 @@
   Modify the enqueue and dequeue methods in the provided code to behave like the push and pop methods for the Stack class. Then import it to the wildfire demo and run it. Add a single cell in the middle of the canvas to the boundary queue prior to starting the search. Which of the images below correspond to a possible state of the grid during the resulting depth first search?
 
 ### Answer:
-* ![Option 1](/Principles_Of_Computing_Coursera_RiceUni/Week 6/Images/1.jpg)
-* ![Option 2](/Principles_Of_Computing_Coursera_RiceUni/Week 6/Images/2.jpg)
-* ![Option 3](/Principles_Of_Computing_Coursera_RiceUni/Week 6/Images/3.jpg)
+![Option 1](/Principles_Of_Computing_Coursera_RiceUni/Week 6/Images/1.jpg)
+
