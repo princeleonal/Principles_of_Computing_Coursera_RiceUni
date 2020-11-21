@@ -1,5 +1,5 @@
 # Question 1
-  Review the math notes on the growth of functions. Which of the following functions grow at the same rate as 1/2 n^2 - 5n + 20?
+  Review the math notes on the growth of functions. Which of the following functions grow at the same rate as (n^2)/2 - 5n + 20?
 
 ### Answer:
     n^2
@@ -41,23 +41,19 @@
   Upon reviewing the provided code, Which of the following code fragments correctly computes `four_neighbors(row, col)` when the top/bottom rows and left/right columns are treated as being adjacent?
   
 ### Answer:
-    ```python
     up = (row - 1) % self._grid_height
     down = (row + 1) % self._grid_height
     left = (col - 1) % self._grid_width
     right = (col + 1) % self._grid_width
     return [[up, col], [down, col], [row, left], [row, right]]
-    ```
-
+    
 ----
 # Question 7
   Consider the wildfire demo from lecture, which line in the implementation of `update_boundary` checks whether the fire can spread to an unburned cell?
 
 ### Answer:
-    ```python
     if self.is_empty(neighbor[0], neighbor[1]):
-    ```
-
+    
 ----
 # Question 8
    Consider the case in which one steps through the entire breadth first search of the grid in the wildfire demonstration. Which of the following expressions grows at the same rate as the number of statements executed during this breadth first search? Assume the grid has size m-by-n.
