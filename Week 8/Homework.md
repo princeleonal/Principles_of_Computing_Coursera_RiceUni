@@ -6,7 +6,7 @@
 
 ----
 # Question 2
-  Observe that the method `append` for the `NodeList` class is defined recursively. Given an existing list of n nodes (created as a `NodeList` object), how many calls to `append` are evaluated when appending a new node to the end of the list? Count only the calls performed during the process of appending of this (n+1)st node to the list, not those performed during the process of creating the original n-node input list. Enter the answer as a math expression in nn below.
+  Observe that the method `append` for the `NodeList` class is defined recursively. Given an existing list of n nodes (created as a `NodeList` object), how many calls to `append` are evaluated when appending a new node to the end of the list? Count only the calls performed during the process of appending of this (n+1)st node to the list, not those performed during the process of creating the original n-node input list. Enter the answer as a math expression in n below.
 ### Answer:
     n
 
