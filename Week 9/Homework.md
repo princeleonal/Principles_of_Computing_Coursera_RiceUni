@@ -15,12 +15,19 @@
  8, 10,0, 11,
  12,13,14,15]
 ```
+
 ----
 # Question 2
-  
+  Which move string updates the puzzle from the configuration shown on the left to the configuration shown on the right?
+  ```python
+  [1, 2, 3, 7,  [5,1,2,7,]
+   5, 4, 9, 6,   4,8,3,6,
+   8, 0, 10,11,  0,9,10,11,
+   12,13,14,15]  12,13,14,15]
+   ```
 
 ### Answer:
-    
+
 
 ----
 # Question 3
