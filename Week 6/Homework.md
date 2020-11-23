@@ -6,9 +6,7 @@
 
 ----
 # Question 2
-  The fastest algorithms for sorting a list of size n share a bound (specified as a simple expression in n) for the minimal number of comparisons required to sort any list of length n.
-  
-  Use a web search engine (like Google) to look up this estimate and select the answer below that grows at the same rate as this expression.
+  The fastest algorithms for sorting a list of size n share a bound (specified as a simple expression in n) for the minimal number of comparisons required to sort any list of length n. Use a web search engine (like Google) to look up this estimate and select the answer below that grows at the same rate as this expression.
   
 ### Answer:
     n log(n) comparisons
