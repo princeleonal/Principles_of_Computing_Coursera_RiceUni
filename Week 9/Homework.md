@@ -99,7 +99,6 @@
 # Question 8
   Starting from the configurations (given) on the right, which move string completes the solution process for this position and updates the puzzle to a configuration where `lower_row_invariant(3, 0)` is true?
 
-
 ### Answer:
     lddruld
 
